@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image a perfect circle*/
+    object-fit: cover;
+    border: 3px solid #007bb5;
+}
+
+h1 {
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+
+.subtitle {
+    color: #666;
+    font-style: italic;
+    margin-top: 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #007bb5;
+    border-bottom: 2px solid #f4f7f6;
+    padding-bottom: 5px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px 0;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #007bb5;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
